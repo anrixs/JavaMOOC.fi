@@ -1,0 +1,1 @@
+[{"className":"WhereFromTest","methodName":"test","pointNames":["02-16.2"],"status":"PASSED"},{"className":"WhereToTest","methodName":"verifyOutput","pointNames":["02-16.1"],"status":"PASSED"},{"className":"WhereToTest","methodName":"testi","pointNames":["02-16.1"],"status":"PASSED"}]
