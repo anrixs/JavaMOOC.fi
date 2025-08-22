@@ -16,10 +16,11 @@ public class Person {
     public Person() {
         this("Lilo", new Pet("Stitch", "blue alien"));
     }
+    
 
     @Override
     public String toString() {
-        return this.name;
+        return this.name + ", has a friend called " + pet.getName() + " (" + pet.getBreed() + ")";
     }
 
 }
