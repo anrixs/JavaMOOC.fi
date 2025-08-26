@@ -33,10 +33,6 @@ public class Person {
             this.weight == comparedPerson.weight) {
             return true;
         }
-
-        
         return false;
     }
-
-
 }
