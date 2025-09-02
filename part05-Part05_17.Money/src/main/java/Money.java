@@ -1,4 +1,3 @@
-
 public class Money {
 
     private final int euros;
@@ -10,7 +9,6 @@ public class Money {
             euros = euros + cents / 100;
             cents = cents % 100;
         }
-
         this.euros = euros;
         this.cents = cents;
     }
@@ -22,7 +20,6 @@ public class Money {
     public int cents() {
         return this.cents;
     }
-
     public Money plus(Money addition) {
         int totalEuros = this.euros + addition.euros;
         int totalCents = this.cents + addition.cents;
@@ -30,7 +27,6 @@ public class Money {
 
         return newMoney;
     }
-
     public Money minus(Money decreaser) {
         int totalEuros = this.euros - decreaser.euros;
         int totalCents = this.cents - decreaser.cents;
@@ -44,11 +40,8 @@ public class Money {
             totalEuros = 0;
             totalCents = 0;
         }
-
         Money secondMoney = new Money(totalEuros, totalCents);
-
         return secondMoney;
-
     }
 
     public boolean lessThan(Money compared) {
@@ -71,5 +64,4 @@ public class Money {
 
         return this.euros + "." + zero + this.cents + "e";
     }
-
 }
