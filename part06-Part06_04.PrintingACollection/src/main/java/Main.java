@@ -22,6 +22,10 @@ public class Main {
         j.add("phoenix");
         System.out.println(j);
         
+        SimpleCollection c = new SimpleCollection("collection"); 
+        c.add("element"); 
+        System.out.println(c);
+        
         
     }
 }
