@@ -12,8 +12,10 @@ public class Main {
         c.add("mystique");
         c.add("phoenix");
         
+        System.out.println(c.getElements());
+        
         System.out.println("Longest: " + c.longest());
-
+        
         
     }
 }
